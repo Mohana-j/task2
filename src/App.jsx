@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/task2/" element={<Login />} />
-        <Route path="/task2/dashboard" element={<Dashboard />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         {/* <Route path="/task2" element={<Task2 />} /> Ensure this exists */}
       </Routes>
     </Router>
