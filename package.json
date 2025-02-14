@@ -8,10 +8,10 @@
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run built",
-    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
